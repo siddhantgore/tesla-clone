@@ -53,6 +53,5 @@ function Home() {
 export default Home
 
 const Container = styled.div`
-    color:red;
     height:100vh;
 `
