@@ -19,11 +19,12 @@
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.1"
   },
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "./node_modules/.bin/netlify-lambda serve src",
-  "build": "react-scripts build"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
